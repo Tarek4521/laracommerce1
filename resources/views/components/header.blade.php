@@ -18,8 +18,8 @@
                     </div>
                     <div class="top_right text-right">
                         <ul>
-                           <li><a href="my-account.html"> My Account </a></li> 
-                           <li><a href="checkout.html"> Checkout </a></li> 
+                           <li><a href="my-account"> My Account </a></li> 
+                           <li><a href="checkout"> Checkout </a></li> 
                         </ul>
                     </div> 
                     <div class="search_container">
@@ -33,7 +33,7 @@
                     
                     <div class="middel_right_info">
                         <div class="header_wishlist">
-                            <a href="wishlist.html"><img src="assets/img/user.png" alt=""></a>
+                            <a href="wishlist"><img src="assets/img/user.png" alt=""></a>
                         </div>
                         <div class="mini_cart_wrapper">
                             <a href="javascript:void(0)"><img src="assets/img/shopping-bag.png" alt=""></a>
@@ -77,10 +77,10 @@
 
                                 <div class="mini_cart_footer">
                                    <div class="cart_button">
-                                        <a href="cart.html">View cart</a>
+                                        <a href="cart">View cart</a>
                                     </div>
                                     <div class="cart_button">
-                                        <a href="checkout.html">Checkout</a>
+                                        <a href="checkout">Checkout</a>
                                     </div>
 
                                 </div>
@@ -95,36 +95,36 @@
                                 <a href="#">Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="product-details.html">product</a>
+                                <a href="product-details">product</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">pages </a>
                                 <ul class="sub-menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="contact.html">contact</a></li>
-                                    <li><a href="privacy-policy.html">privacy policy</a></li>
-                                    <li><a href="faq.html">Frequently Questions</a></li>
-                                    <li><a href="login.html">login</a></li>
-                                    <li><a href="register.html">register</a></li>
-                                    <li><a href="forget-password.html">Forget Password</a></li>
-                                    <li><a href="404.html">Error 404</a></li>
-                                    <li><a href="cart.html">cart</a></li>
-                                    <li><a href="tracking.html">tracking</a></li>
-                                    <li><a href="checkout.html">checkout</a></li>
+                                    <li><a href="about">About Us</a></li>
+                                    <li><a href="contact">contact</a></li>
+                                    <li><a href="privacy-policy">privacy policy</a></li>
+                                    <li><a href="faq">Frequently Questions</a></li>
+                                    <li><a href="login">login</a></li>
+                                    <li><a href="register">register</a></li>
+                                    <li><a href="forget-password">Forget Password</a></li>
+                                    <li><a href="404">Error 404</a></li>
+                                    <li><a href="cart">cart</a></li>
+                                    <li><a href="tracking">tracking</a></li>
+                                    <li><a href="checkout">checkout</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">blog</a>
                                 <ul class="sub-menu">
-                                    <li><a href="blog.html">blog</a></li>
-                                    <li><a href="blog-details.html">blog details</a></li>
+                                    <li><a href="blog">blog</a></li>
+                                    <li><a href="blog-details">blog details</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="login.html">my account</a>
+                                <a href="login">my account</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="contact.html"> Contact Us</a> 
+                                <a href="contact"> Contact Us</a> 
                             </li>
                         </ul>
                     </div>
@@ -160,8 +160,8 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="top_right text-right">
                             <ul>
-                               <li><a href="my-account.html">Account</a></li> 
-                               <li><a href="checkout.html">Checkout</a></li> 
+                               <li><a href="my-account">Account</a></li> 
+                               <li><a href="checkout">Checkout</a></li> 
                             </ul>
                         </div>   
                     </div>
@@ -175,7 +175,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6">
                         <div class="logo">
-                            <a href="index-2.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="index-2"><img src="assets/img/logo/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-6">
@@ -234,10 +234,10 @@
 
                                         <div class="mini_cart_footer">
                                            <div class="cart_button">
-                                                <a href="cart.html">View cart</a>
+                                                <a href="cart">View cart</a>
                                             </div>
                                             <div class="cart_button">
-                                                <a href="checkout.html">Checkout</a>
+                                                <a href="checkout">Checkout</a>
                                             </div>
 
                                         </div>
@@ -260,31 +260,31 @@
                         <div class="main_menu menu_position"> 
                             <nav>  
                                 <ul>
-                                    <li><a href="index-2.html">home</a></li>
-                                    <li><a href="product-details.html">Product</a></li>
+                                    <li><a href="index-2">home</a></li>
+                                    <li><a href="product-details">Product</a></li>
                                     
                                     <li><a class="active" href="#">pages <i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu pages">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="contact.html">contact</a></li>
-                                            <li><a href="privacy-policy.html">privacy policy</a></li>
-                                            <li><a href="faq.html">Frequently Questions</a></li>
-                                            <li><a href="login.html">login</a></li>
-                                            <li><a href="register.html">register</a></li>
-                                            <li><a href="forget-password.html">Forget Password</a></li>
-                                            <li><a href="404.html">Error 404</a></li>
-                                            <li><a href="cart.html">cart</a></li>
-                                            <li><a href="tracking.html">tracking</a></li>
-                                            <li><a href="checkout.html">checkout</a></li>
+                                            <li><a href="about">About Us</a></li>
+                                            <li><a href="contact">contact</a></li>
+                                            <li><a href="privacy-policy">privacy policy</a></li>
+                                            <li><a href="faq">Frequently Questions</a></li>
+                                            <li><a href="login">login</a></li>
+                                            <li><a href="register">register</a></li>
+                                            <li><a href="forget-password">Forget Password</a></li>
+                                            <li><a href="404">Error 404</a></li>
+                                            <li><a href="cart">cart</a></li>
+                                            <li><a href="tracking">tracking</a></li>
+                                            <li><a href="checkout">checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">blog<i class="fa fa-angle-down"></i></a>
+                                    <li><a href="blog">blog<i class="fa fa-angle-down"></i></a>
                                         <ul class="sub_menu pages">
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="blog-details.html">blog details</a></li>
+                                            <li><a href="blog">blog</a></li>
+                                            <li><a href="blog-details">blog details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html"> Contact Us</a></li>
+                                    <li><a href="contact"> Contact Us</a></li>
                                 </ul>  
                             </nav> 
                         </div>
