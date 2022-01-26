@@ -2,7 +2,10 @@
 <html class="no-js" lang="en">
 
 <!-- 404.html  03:24:56 GMT -->
-<x-master>
+@extends('layout.master')
+@section('content')
+    
+
 <body>
 
     <!--header area start-->
@@ -46,4 +49,4 @@
     <!--error section area end--> 
         
 
-</x-master>
+@endsection

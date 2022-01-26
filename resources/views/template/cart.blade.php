@@ -2,7 +2,8 @@
 <html class="no-js" lang="en">
 
 <!-- cart.html  03:24:28 GMT -->
-<x-master>
+@extends('layout.master')
+@section('content')
 <body>
 
     <!--header area start-->
@@ -120,4 +121,4 @@
     <!--shopping cart area end -->
         
 
-</x-master>
+@endsection

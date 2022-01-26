@@ -1,5 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<x-master>
+@extends('layout.master')
+@section('content')
 <title>404 Not Found</title>
 </head>
 <body>
@@ -9,4 +10,4 @@
 error was encountered while trying to use an ErrorDocument to handle the request.</p>
 </body>
 
-</x-master>
+@endsection

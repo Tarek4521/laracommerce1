@@ -2,7 +2,8 @@
 <html class="no-js" lang="en">
 
 <!-- tracking.html  03:25:01 GMT -->
-<x-master>
+@extends('layout.master')
+@section('content')
 
 <body>
 
@@ -85,4 +86,4 @@
         
 
     <!--footer area start-->
-</x-master>
+@endsection

@@ -1,7 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
     
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- blog.html  03:25:02 GMT -->
 
 
@@ -217,4 +218,4 @@
 ============================================ -->
 
 
-</x-master>
+@endsection

@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- blog-details.html  03:25:03 GMT -->
 
 <body>
@@ -213,5 +214,5 @@
     </div>
     <!--blog section area end-->
 	
-</x-master>
+ @endsection
    

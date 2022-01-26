@@ -1,7 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
     
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- register.html  03:24:53 GMT -->
 
 <body>
@@ -42,7 +43,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                 <div class="account-content">
-                                    <form action="#">
+                                    {{-- <form action="#">
                                         <div class="single-acc-field">
                                             <label for="name">Name</label>
                                             <input type="text" id="name" placeholder="Enter Your Name">
@@ -63,7 +64,48 @@
                                             <button type="submit">Register now</button>
                                         </div>
                                         <a href="login.html">Already account? Login</a>
-                                    </form>
+                                    </form> --}}
+                                    {!! Form::open(['url' => '/register', 'method' => 'post', 'class'=> 'single-acc-field boxes']) !!}
+
+                                    <div class="single-acc-field">
+                                        
+
+                                   {!! Form::label('name', 'Name*');!!}
+                                   {!! Form::text('name', '', ['id'=>'name', 'placeholder'=>'Enter your Full Name']);!!}
+                                    </div>
+
+                                    <div class="single-acc-field">
+                                   {!! Form::label('email', 'Email*');!!}
+                                   {!! Form::text('email', '', ['id'=>'email', 'placeholder'=>'Enter your Email']);!!}
+                                    </div>
+
+                                    <div class="single-acc-field">
+                                   {!! Form::label('password', 'Password*');!!}
+                                   {!! Form::password('password', ['id'=>'password','placeholder'=>'Enter your Password']);!!}
+                                    </div>
+
+                                    <div class="single-acc-field boxes">
+                                   {!! Form::checkbox('checkbox','',false,['id'=>'checkbox']);!!}
+                                   
+                                   
+                                   {!! Form::label('checkbox', 'I am not a Robot');!!}
+                                    </div>
+                                    
+                                    <div class="single-acc-field">
+
+                                  {!! Form::button('Register!'); !!}
+                                    </div>
+
+                              
+                                    {!! link_to('login', $title = 'Already have an account!', $parameters = [], $attributes = []);!!}
+                                  
+                                  
+
+                                   
+
+
+
+                                    {!! Form::close() !!}
                                 </div>
                             </div>
                         </div>
@@ -74,4 +116,4 @@
 	</section>
 
     <!--footer area start-->
-</x-master>
+@endsection

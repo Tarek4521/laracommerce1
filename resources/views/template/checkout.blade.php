@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- checkout.html  03:24:27 GMT -->
 
 
@@ -301,4 +302,4 @@
     </div>
     <!--Checkout page section end-->
 
-</x-master>
+@endsection

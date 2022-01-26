@@ -2,23 +2,23 @@
 <html class="no-js" lang="en">
 
 <!--   03:20:39 GMT -->
-<x-head/>
+@include('include.head')
 
 
 <body>
 
     <!--header area start-->
-    <x-header/>
+    @include('include.header')
     <!--header area end-->
 
-{{$slot}}
+    @yield('content')
 
     
   
 	
 	
     <!--footer area start-->
-    <x-footer/>
+    @include('include.footer')
     <!--footer area end-->
 <!-- JS
 ============================================ -->

@@ -1,7 +1,10 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<x-master>
+@extends('layout.master')
+@section('content')
+    
+
 
 <body>
 
@@ -200,4 +203,4 @@
 
 
 
-</x-master>
+   @endsection

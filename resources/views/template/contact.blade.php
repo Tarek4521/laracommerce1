@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- contact.html  03:24:45 GMT -->
 
 <body>
@@ -81,4 +82,4 @@
 		</div>
 	</section>
 
-</x-master>
+@endsection

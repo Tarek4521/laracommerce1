@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- forget-password.html  03:24:54 GMT -->
 
 <body>
@@ -61,4 +62,4 @@
 	</section>
 
     <!--footer area start-->
-</x-master>
+@endsection

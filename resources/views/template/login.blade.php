@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- login.html  03:24:52 GMT -->
 
 
@@ -70,4 +71,4 @@
 		</div>
 	</section>
     
-</x-master>
+@endsection

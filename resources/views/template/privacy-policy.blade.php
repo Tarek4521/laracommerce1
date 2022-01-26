@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- privacy-policy.html  03:24:48 GMT -->
 
 
@@ -76,4 +77,4 @@
     <!--Privacy Policy area end-->
 
     <!--footer area start-->
-</x-master>
+@endsection

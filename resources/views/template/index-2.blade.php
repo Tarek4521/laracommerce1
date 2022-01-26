@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<x-master>
+    @extends('layout.master')
+    @section('content')
 <!-- index.html  03:25:08 GMT -->
 
 
@@ -623,4 +624,4 @@
     <!--shipping area end-->
 	
 	
-</x-master>
+@endsection
