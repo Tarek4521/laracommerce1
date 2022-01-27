@@ -87,3 +87,12 @@ Route::resource('sliders',SlideController::class);
 // Route::get('/404', function(){
 //     return view('template.404');
 // });
+
+Route::get('/home', function(){
+        return view('backend.home');
+    });
+
+Route::get('/table', function(){
+        return view('backend.table');
+    });
+
