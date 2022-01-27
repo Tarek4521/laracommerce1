@@ -3,7 +3,7 @@
 @extends('layout.master')
 @section('content')
 
-{{-- xxxxxxxx --}}
+{{-- xxxx --}}
 
     <div class="card">
         <div class="card-header">
